@@ -4,7 +4,7 @@
   "parameters": {},
   "variables": {},
   "resources": [
-    {
+  {
       "apiVersion": "2018-10-01",
       "type": "Microsoft.Network/virtualNetworks",
       "name": "vnet-001",
@@ -15,18 +15,12 @@
       "properties": {
         "addressSpace": {
           "addressPrefixes": [
-            "10.0.0.0/16"
+            "10.0.0.0/15"
           ]
         },
         "enableVmProtection": false,
         "enableDdosProtection": false,
         "subnets": [
-          {
-            "name": "subnet001",
-            "properties": {
-              "addressPrefix": "10.0.0.0/24"
-            }
-          },
           {
             "name": "subnet002",
             "properties": {
@@ -35,6 +29,6 @@
           }
         ]
       }
-    }
+    } 
   ]
 }
