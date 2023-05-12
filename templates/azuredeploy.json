@@ -10,8 +10,7 @@
       "name": "vnet-001",
       "location": "[resourceGroup().location]",
       "tags": {
-        "CostCenter": "12345",
-        "Owner": "Team A"
+        "CostCenter": "12345"
       },
       "properties": {
         "addressSpace": {
